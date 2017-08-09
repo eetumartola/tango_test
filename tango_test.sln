@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tango_test", "tango_test.csproj", "{810DB399-56EA-BED6-7300-CDBCD9571258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tango_test.Editor", "tango_test.Editor.csproj", "{40FA5E12-E8E2-FD93-9D71-9D6658E19BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{810DB399-56EA-BED6-7300-CDBCD9571258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810DB399-56EA-BED6-7300-CDBCD9571258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810DB399-56EA-BED6-7300-CDBCD9571258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810DB399-56EA-BED6-7300-CDBCD9571258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FA5E12-E8E2-FD93-9D71-9D6658E19BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FA5E12-E8E2-FD93-9D71-9D6658E19BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FA5E12-E8E2-FD93-9D71-9D6658E19BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FA5E12-E8E2-FD93-9D71-9D6658E19BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
