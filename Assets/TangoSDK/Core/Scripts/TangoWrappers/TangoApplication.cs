@@ -868,7 +868,7 @@ namespace Tango
             case TangoEnums.TangoDepthCameraRate.MAXIMUM:
                 // Set the depth frame rate to a sufficiently high number, it will get rounded down.  There is no
                 // way to actually get the maximum value to pass in.
-                m_tangoDepthCameraManager.SetDepthCameraRate(5);
+                m_tangoDepthCameraManager.SetDepthCameraRate(15);
                 break;
             }
         }
@@ -884,9 +884,9 @@ namespace Tango
         {
             m_tangoDepthCameraManager.SetDepthCameraRate(rate);
         }
-#endregion
+        #endregion
 
-#region 3DReconstruction
+        #region 3DReconstruction
         /// <summary>
         /// Enable or disable the 3D Reconstruction.
         /// </summary>
